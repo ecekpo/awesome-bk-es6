@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  border: 1px solid gray;
+}
+
+#nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 1rem 10rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 5rem;
+  margin-top: 30px;
+  margin-left: 600px;
+}
+
+li {
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  gap: 5rem;
+  margin-left: 600px;
+}
+
+.date {
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+form {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#contact-ul {
+  flex-direction: column;
+  gap: 1px;
+  margin-left: -10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  align-items: center;
+  font-weight: 600;
+  padding: 10px;
+  margin: 1rem 10rem;
+}
