@@ -3,15 +3,28 @@
   padding: 0;
 }
 
+body {
+  background-color: white;
+}
+
 header {
-  border-bottom: 1px solid gray;
+  border: 1px solid gray;
 }
 
 #nav-links {
   display: flex;
   gap: 2rem;
-  margin-left: 1200px;
-  padding: 20px 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 1rem 10rem;
+}
+
+h1 {
+  text-align: center;
 }
 
 a {
@@ -61,4 +74,14 @@ form {
   margin-left: -10px;
   justify-content: center;
   align-items: center;
+}
+
+.copy {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  align-items: center;
+  font-weight: 600;
+  padding: 10px;
+  margin: 1rem 10rem;
 }
