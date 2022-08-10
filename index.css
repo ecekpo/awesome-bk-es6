@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px solid gray;
+}
+
+#nav-links {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1200px;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 5rem;
+  margin-top: 30px;
+  margin-left: 600px;
+}
+
+li {
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  gap: 5rem;
+  margin-left: 600px;
+}
+
+.date {
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+form {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#contact-ul {
+  flex-direction: column;
+  gap: 1px;
+  margin-left: -10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-book {
+;
+}
